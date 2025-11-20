@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>My Website</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <header class="top">
+    <h1>Welcome to My Website</h1>
+    <nav>
+      <a href="#">Home</a>
+      <a href="#about">About</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <h2>Your business or personal tagline goes here</h2>
+      <p>Simple introduction about who you are or what you offer.</p>
+    </section>
+
+    <section id="about">
+      <h3>About Me / Business</h3>
+      <p>Write 2–3 sentences about your business or yourself.</p>
+    </section>
+
+    <section id="contact">
+      <h3>Contact</h3>
+      <p>Email: you@example.com</p>
+      <p>Phone: +255...</p>
+    </section>
+  </main>
+
+  <footer>
+    <p>© <span id="year"></span> My Website</p>
+  </footer>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+
+</body>
+</html>
