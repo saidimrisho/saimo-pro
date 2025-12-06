@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Portfolio - Saimo-Pro</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-flex">
+      <img src="logo.png"class="logo">
+      <h1 class="logo-name">SaiMo-Pro</h1>
+      <nav>
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="services.html">Services</a>
+        <a href="portfolio.html">Portfolio</a>
+        <a href="photos.html">photos</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </div>
+  </header>
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Saimo-Pro Project Gallery</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1 class="gallery-title">Our Project Gallery</h1>
+
+    <div class="gallery-container">
+        <img src="1.jpg" alt="Project Photo" onclick="openLightbox(this)">
+        <img src="2.jpg" alt="Project Photo" onclick="openLightbox(this)">
+        <img src="3.jpg" alt="Project Photo" onclick="openLightbox(this)">
+        <img src="4.jpg" alt="Project Photo" onclick="openLightbox(this)">
+        <img src="5.jpg" alt="Project Photo" onclick="openLightbox(this)">
+        <img src="6.jpg" alt="Project Photo" onclick="openLightbox(this)">
+        <img src="7.jpg" alt="Project Photo" onclick="openLightbox(this)">
+        <img src="8.jpg" alt="Project Photo" onclick="openLightbox(this)">
+        <img src="9.jpg" alt="Project Photo" onclick="openLightbox(this)">
+        <img src="10.jpg" alt="Project Photo" onclick="openLightbox(this)">
+        <img src="11.jpg" alt="Project Photo" onclick="openLightbox(this)">
+        <img src="12.jpg" alt="Project Photo" onclick="openLightbox(this)">
+        <img src="13.jpg" alt="Project Photo" onclick="openLightbox(this)">
+        <img src="14.jpg" alt="Project Photo" onclick="openLightbox(this)">
+        <img src="15.jpg" alt="Project Photo" onclick="openLightbox(this)">
+        <img src="16.jpg" alt="Project Photo" onclick="openLightbox(this)">
+        <img src="17.jpg" alt="Project Photo" onclick="openLightbox(this)">
+        <img src="18.jpg" alt="Project Photo" onclick="openLightbox(this)">
+        <img src="19.jpg" alt="Project Photo" onclick="openLightbox(this)">
+    </div>
+
+    <!-- LIGHTBOX POPUP -->
+    <div id="lightbox" class="lightbox" onclick="closeLightbox()">
+        <img id="lightbox-img">
+    </div>
+
+    <script>
+        function openLightbox(img) {
+            document.getElementById("lightbox-img").src = img.src;
+            document.getElementById("lightbox").style.display = "flex";
+        }
+
+        function closeLightbox() {
+            document.getElementById("lightbox").style.display = "none";
+        }
+    </script>
+
+</body>
+</html>
+
+
+  <footer class="site-footer">
+    <div class="container">© Saimo-Pro Electrical Services</div>
+  </footer>
+</body>
+</html>
